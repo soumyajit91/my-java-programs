@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=change
+comment1.params=
+comment1.target=change()
+comment2.params=n1
+comment2.target=void\ hexadeci(int)
+comment3.params=n1
+comment3.target=void\ printRecursively(int)
+comment4.params=
+comment4.target=void\ input()
+comment5.params=
+comment5.target=void\ decihexa()
+numComments=6

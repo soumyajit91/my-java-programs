@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Towerofhanoi
+comment1.params=
+comment1.target=void\ main()
+comment2.params=N\ snd1\ ind1\ dndi
+comment2.target=void\ move(int,\ char,\ char,\ char)
+numComments=3

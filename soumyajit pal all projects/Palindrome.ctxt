@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Palindrome
+comment1.params=value
+comment1.target=Node(int)
+comment2.params=data
+comment2.target=void\ insertAtLast(int)
+comment3.params=head
+comment3.target=void\ printList(Node)
+comment4.params=head
+comment4.target=boolean\ isPalindrome(Node)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

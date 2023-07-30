@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=palindrome
+comment1.params=
+comment1.target=void\ readword()
+comment2.params=s
+comment2.target=boolean\ checkPalindrome(java.lang.String)
+comment3.params=
+comment3.target=void\ getPalindrome()
+comment4.params=
+comment4.target=void\ display()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

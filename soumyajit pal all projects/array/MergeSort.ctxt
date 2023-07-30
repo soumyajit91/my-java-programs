@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MergeSort
+comment1.params=nx\ ny
+comment1.target=MergeSort(int,\ int)
+comment2.params=
+comment2.target=void\ inpdata()
+comment3.params=
+comment3.target=void\ merge_sort()
+comment4.params=
+comment4.target=void\ Display()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

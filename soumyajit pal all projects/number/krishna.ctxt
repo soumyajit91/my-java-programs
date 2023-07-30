@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=krishna
+comment1.params=n\ i
+comment1.target=int\ factors(int,\ int)
+comment2.params=n\ temp
+comment2.target=int\ rev(int,\ int)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

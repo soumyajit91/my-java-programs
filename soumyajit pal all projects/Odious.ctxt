@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Odious
+comment1.params=
+comment1.target=Odious()
+comment2.params=nx
+comment2.target=Odious(int)
+comment3.params=
+comment3.target=void\ inputArray()
+comment4.params=
+comment4.target=void\ printOdious()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

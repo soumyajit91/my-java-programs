@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=theseries
+comment1.params=
+comment1.target=theseries()
+comment2.params=
+comment2.target=void\ readList()
+comment3.params=y\ i
+comment3.target=int\ Isprime(int,\ int)
+comment4.params=
+comment4.target=void\ printResult()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

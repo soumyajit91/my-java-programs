@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=matrix
+comment1.params=
+comment1.target=matrix()
+comment2.params=r\ c
+comment2.target=matrix(int,\ int)
+comment3.params=
+comment3.target=void\ get_input()
+comment4.params=
+comment4.target=void\ print_matrix()
+comment5.params=m1
+comment5.target=matrix\ add(matrix)
+comment6.params=m1
+comment6.target=matrix\ sub(matrix)
+numComments=7

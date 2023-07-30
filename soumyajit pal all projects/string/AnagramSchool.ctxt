@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AnagramSchool
+comment1.params=n
+comment1.target=java.lang.String\ Lowercase(java.lang.String)
+comment2.params=n
+comment2.target=int\ length(java.lang.String)
+comment3.params=str1\ str2\ p1\ p2
+comment3.target=int\ ana(java.lang.String,\ java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=void\ main()
+numComments=5

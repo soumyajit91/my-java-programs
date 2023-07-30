@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Booklist
+comment1.params=n\ s\ b\ bn\ p\ e
+comment1.target=Booklist(java.lang.String,\ java.lang.String,\ long,\ java.lang.String,\ float,\ int)
+comment2.params=
+comment2.target=void\ show()
+numComments=3

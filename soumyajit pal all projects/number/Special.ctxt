@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Special
+comment1.params=
+comment1.target=Special()
+comment2.params=nn
+comment2.target=Special(int)
+comment3.params=
+comment3.target=void\ Sum()
+comment4.params=
+comment4.target=void\ isSpecial()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

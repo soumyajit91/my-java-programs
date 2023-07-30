@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="columnh" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <call expression="System . out . println ( &quot;Enter the number of row and coulumn&quot; )" expression-java="System . out . println ( &quot;Enter the number of row and coulumn&quot; )" enable="true"/>
+                <variable type="Scanner" type-java="Scanner" name="sc" value="new Scanner ( System . in )" value-java="new Scanner ( System . in )" enable="true"/>
+                <variable type="int" type-java="int" name="n" value="sc . nextInt ( )" value-java="sc . nextInt ( )" enable="true"/>
+                <variable type="int" type-java="int" name="r" enable="true"/>
+                <variable type="int" type-java="int" name="c" enable="true"/>
+                <variable type="int" type-java="int" name="max" value="0" value-java="0" enable="true"/>
+                <variable type="int[][]" type-java="int[][]" name="arr" value="new int [ n ] [ n ]" value-java="new int [ n ] [ n ]" enable="true"/>
+                <variable type="int" type-java="int" name="k" value="0" value-java="0" enable="true"/>
+                <assign dest="r" dest-java="r" src="0" src-java="0" enable="true"/>
+                <while condition="r &lt; n" condition-java="r &lt; n" enable="true">
+                    <assign dest="c" dest-java="c" src="0" src-java="0" enable="true"/>
+                    <while condition="c &lt; n" condition-java="c &lt; n" enable="true">
+                        <call expression="System . out . println ( &quot;Input a number for&quot; + k + &quot; element&quot; )" expression-java="System . out . println ( &quot;Input a number for&quot; + k + &quot; element&quot; )" enable="true"/>
+                        <assign dest="arr [ r ] [ c ]" dest-java="arr [ r ] [ c ]" src="sc . nextInt ( )" src-java="sc . nextInt ( )" enable="true"/>
+                        <assign dest="k" dest-java="k" src="k + 1" src-java="k + 1" enable="true"/>
+                        <assign dest="c" dest-java="c" src="c + 1" src-java="c + 1" enable="true"/>
+                    </while>
+                    <assign dest="r" dest-java="r" src="r + 1" src-java="r + 1" enable="true"/>
+                </while>
+                <call expression="System . out . println ( &quot;the array enterrd&quot; )" expression-java="System . out . println ( &quot;the array enterrd&quot; )" enable="true"/>
+                <assign dest="r" dest-java="r" src="0" src-java="0" enable="true"/>
+                <while condition="r &lt; n" condition-java="r &lt; n" enable="true">
+                    <assign dest="c" dest-java="c" src="0" src-java="0" enable="true"/>
+                    <while condition="c &lt; n" condition-java="c &lt; n" enable="true">
+                        <call expression="System . out . print ( arr [ r ] [ c ] )" expression-java="System . out . print ( arr [ r ] [ c ] )" enable="true"/>
+                        <assign dest="c" dest-java="c" src="c + 1" src-java="c + 1" enable="true"/>
+                    </while>
+                    <call expression="System . out . println ( )" expression-java="System . out . println ( )" enable="true"/>
+                    <assign dest="r" dest-java="r" src="r + 1" src-java="r + 1" enable="true"/>
+                </while>
+                <assign dest="r" dest-java="r" src="0" src-java="0" enable="true"/>
+                <while condition="r &lt; n" condition-java="r &lt; n" enable="true">
+                    <assign dest="c" dest-java="c" src="0" src-java="0" enable="true"/>
+                    <while condition="c &lt; n" condition-java="c &lt; n" enable="true">
+                        <if condition="max &lt; arr [ r ] [ c ]" condition-java="max &lt; arr [ r ] [ c ]" enable="true">
+                            <ifStatements>
+                                <assign dest="max" dest-java="max" src="arr [ r ] [ c ]" src-java="arr [ r ] [ c ]" enable="true"/>
+                            </ifStatements>
+                        </if>
+                        <assign dest="c" dest-java="c" src="c + 1" src-java="c + 1" enable="true"/>
+                    </while>
+                    <call expression="System . out . println ( &quot;higest value in the column is &quot; + max )" expression-java="System . out . println ( &quot;higest value in the column is &quot; + max )" enable="true"/>
+                    <assign dest="max" dest-java="max" src="0" src-java="0" enable="true"/>
+                    <assign dest="r" dest-java="r" src="r + 1" src-java="r + 1" enable="true"/>
+                </while>
+            </body>
+        </method>
+    </methods>
+</class>

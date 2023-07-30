@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=bilisearch
+comment1.params=a
+comment1.target=void\ binary(int[])
+comment2.params=a
+comment2.target=void\ linear(int[])
+comment3.params=
+comment3.target=void\ main()
+numComments=4

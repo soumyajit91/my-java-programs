@@ -1,0 +1,44 @@
+package computer_project;
+
+import java.util.*;
+public class border
+       {
+           public static void main()
+           {
+               Scanner sc=new Scanner(System.in);
+               int i,j;
+               int num[][]=new int[4][4];              
+               System.out.println("the elements of 4*4 matrix are:");
+               for(i=0;i<4;i++)
+                 {
+                     for(j=0;j<4;j++)
+                     {
+                         num[i][j]=sc.nextInt();
+                        }
+                    }// displays the 4*4 matrix 
+               System.out.println("The elements of4*4 matrix are:");
+               for(i=0;i<4;i++)
+                {
+                    for(j=0;j<4;j++)
+                    {
+                        System.out.print(num[i][j]+"    ");
+                    }
+                    System.out.println();
+                }
+                System.out.println("The border elements are");
+                for(i=0;i<4;i++)
+                {
+                    for(j=0;j<4;j++)
+                    { // border element checking
+
+                        if(i==0||j==0||j==3||i==3)
+                        
+                            System.out.print(num[i][j]);
+                            else
+                            System.out.print(" ");
+                    }
+                     System.out.println("");
+                }
+                
+        }
+    }
